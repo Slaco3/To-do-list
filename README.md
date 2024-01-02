@@ -13,13 +13,23 @@ Il s'agit d'une application de liste de tâches construite avec PySide6 pour l'i
     cd To-do-list
     ```
 
-2. Installez les dépendances requises :
+2. Créez l'environnement virtuel:
+    ```bash
+    python -m venv venv
+    ```
+
+3. Activez l'environnement virtuel :
+    ```bash
+    source venv/Scripts/activate
+    ```
+
+4. Installez les dépendances requises :
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Lancez l'application :
+5. Lancez l'application :
 
     ```bash
     python main.py
